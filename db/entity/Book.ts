@@ -1,5 +1,5 @@
 import { BaseEntity,Column,Entity,PrimaryGeneratedColumn } from "typeorm";
-@Entity("books")
+@Entity("book")
 export class Book extends BaseEntity {
     @PrimaryGeneratedColumn('increment')
     id: number;
